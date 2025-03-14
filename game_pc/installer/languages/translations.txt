@@ -1,0 +1,15 @@
+; ~+~ ~+~ ~+~ ~+~ ~+~ ~+~ ~+~ ~+~ ~+~ ~+~ ~+~ ~+~ ~+~ ~+~
+; How to translate the installer into your own language?
+; ~+~ ~+~ ~+~ ~+~ ~+~ ~+~ ~+~ ~+~ ~+~ ~+~ ~+~ ~+~ ~+~ ~+~
+
+If you want to translate the installer, just:
+
+- Take English.nsh and edit each variabe within the "" 
+
+- Replace English in the header with your language (in english)
+  "!insertmacro LANGFILE_EXT English"
+
+Please also edit the following file:
+..\settings\languages.nsh
+
+Thanks for your help in advance!
